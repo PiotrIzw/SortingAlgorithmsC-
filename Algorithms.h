@@ -1,5 +1,6 @@
 #pragma once
-class BubbleSort
+
+class Algorithms
 {
 public:
 	void swap(int x, int y);

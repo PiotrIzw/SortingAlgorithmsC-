@@ -2,13 +2,13 @@
 //
 
 #include <iostream>
-#include "BubbleSort.h"
+#include "Argorithms.h"
 
 const int size = 10;
 int main()
 {
     int arr[size] = { 24324,3,3,4,6,43,2543,754,234,643 };
-    BubbleSort sort;
+    Algorithms sort;
     sort.bubbleSort(arr, size);
     
     for (int i = 0; i < size; i++) {
